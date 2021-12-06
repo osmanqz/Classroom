@@ -221,8 +221,9 @@ asignaciones: [
 ],
 }
 ];
-var localStorage = window.localStorage;
-if (localStorage.getItem('classroom') == 'null') {
+
+localStorage = window.localStorage;
+if (localStorage.getItem('classroom') == null) {
   localStorage.setItem('classroom', JSON.stringify(classroom));
 } else {
   classroom = JSON.parse(localStorage.getItem('classroom'));
