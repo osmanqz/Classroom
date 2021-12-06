@@ -17,10 +17,12 @@
 
 /* imagen de google*/
 .logo{
-   /* background-color: red;*/
-    margin-right: 82%;
-    font-size: 1.5rem;
-    
+   
+   /* background-color: rgb(183, 0, 255);*/
+   /* margin-right: 82%;*/
+    font-size: 1.1rem;
+    width: 900px;
+   
 }
 
  #logo{
@@ -28,6 +30,7 @@
      text-decoration: none;
      color: #5F6368;
      font-family: 'Roboto',Helvetica,Arial,sans-serif;  
+     font-size: 1.3rem;
  }   
 
 
@@ -42,16 +45,28 @@
    /* background-color: red;*/
    /* border: 1px solid black;
     background-color: red;  */
-     position: absolute;
-     left:  1260px;
-     width: 170px;
+    /* position: absolute;*/
+     /*left:  1260px;*/
+     margin-left: auto;
+     width: 180px;
      height: 60px;
      display: flex;
      justify-content: center;
      align-items: center;
  }
  
+
+ .panelizquierdo{
+    margin-right: auto;
+    /* background-color: rgba(10, 90, 175, 0.897);*/
+     margin-right: auto;
+     width: 170px;
+      height: 100%;
+     
+ }
  
+
+
  .panelderechodetalle{
    /* background-color: rgb(61, 54, 54);*/
      height: 50px;
@@ -59,8 +74,6 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     position: absolute;
-     top:5%;
      color: black;
    }
  
@@ -70,25 +83,12 @@
      align-items: center;
      height: 50px;
      width: 50px;
-     border-radius: 60px;
+     border-radius: 30px;
      background-color: #F5F5F5;
+     
  }
- 
- 
- .panelderechoplus{
-   
-     left: 0%;
- }
- 
- .panelderechomenu{
-    
-     left: 35%;
- }
- 
- .panelderechousuario{
-    
-     left: 70%;
- }
+
+
  
  
   .plus{
@@ -186,6 +186,17 @@
      width: 40px;
      height: 40px;
  }
+
+ .profilefotoUno{
+    position: absolute;
+    top: 20%;
+    right: 1%; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+
+ }
  .profilefotochat{
     
     position: absolute;
@@ -229,23 +240,11 @@
     right: 0;
  }
 
- .panelCentralIndividual{
-   /* background-color: rgba(0, 0, 0, 0.137);*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border: none;
- }
- .panelCentralIndividual:Hover{
+ 
+ .efecto:Hover{
     border: none;
     border-bottom: 3px solid #2B7DE9;
 }
-
-
-
-
-
 
 
 #centradoCardDetalle{
@@ -356,12 +355,15 @@
     
 }
 
+
 #nuevaAsignacionUno{
     border-bottom: 1px solid #2C7EEA;
     position: absolute;
+    left: 100px;
     width: 45rem;
     height: 50px;
     top: 25%;
+    right: 30px;
     
 }
 
@@ -407,3 +409,44 @@
     top: 250px;
     left: 390px;
 }
+
+.Columna1{
+  /*  background-color: red;*/
+    margin-right: auto;
+    width: 250px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.Columna2{
+    margin-left: auto;
+   /* background-color: green;*/
+    width: 170px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Columna3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: rgb(128, 15, 0);*/
+}
+
+.efecto:hover{
+
+}
+
+
+/*.container-fluid{
+    
+    background-color: indigo;
+}
+
+.row{
+    background-color: lightblue;
+}*/

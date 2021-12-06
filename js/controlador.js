@@ -1,225 +1,225 @@
 
 var classroom = [
-   {//*instructor 1
-    instructor: 
+  {//*instructor 1
+    instructor:
     {
       nombre: "Goku",
       correo: "goku@gmail.com",
       imagen: "goku.jpg",
     },
-clases: [
-{ //*clase 1
-nombreClase: "Programación II",
-codigo: "CSD33XZ",
-seccion: "1300",
-imgFondo: "detalle3.png",
-imgFondoDetalle: "detalle1.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar",
-participantes: [
-                {
-                nombre: "Krillin",
-                correo: "krillin@gmail.com",
-                imagen: "krilin.jpg",
-                },
-               
-                // ...Otro participante
-],
-anuncios: [
-        {
-          mensaje: "Hoy es el examen",
-          fecha: "27/01/2020",
-        },
+    clases: [
+      { //*clase 1
+        nombreClase: "Programación II",
+        codigo: "CSD33XZ",
+        seccion: "1300",
+        imgFondo: "detalle3.png",
+        imgFondoDetalle: "detalle1.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar",
+        participantes: [
+          {
+            nombre: "Krillin",
+            correo: "krillin@gmail.com",
+            imagen: "krilin.jpg",
+          },
+
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es el examen",
+            fecha: "27/01/2020",
+          },
           // ...Otro anuncio
-],
-asignaciones: [
+        ],
+        asignaciones: [
           {
             titulo: "Tarea 1",
             descripcion: "Entregar un programa",
             fecha: "28/02/2020",
           },
-            // ...Otra asignación
-],
-},
-//*Clase 2
-{
-nombreClase: "POO",
-codigo: "POO33XZ",
-seccion: "1400",
-imgFondo: "detalle2.png",
-imgFondoDetalle: "detalle2.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar bien",
-participantes: [
-                {
-                nombre: "Gohan",
-                correo: "gohan@gmail.com",
-                imagen: "gohan.jpg",
-                },
-                // ...Otro participante
-],
-anuncios: [
-        {
-          mensaje: "Hoy es la tarea",
-          fecha: "01/06/2021",
-        },
+          // ...Otra asignación
+        ],
+      },
+      //*Clase 2
+      {
+        nombreClase: "POO",
+        codigo: "POO33XZ",
+        seccion: "1400",
+        imgFondo: "detalle2.png",
+        imgFondoDetalle: "detalle2.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar bien",
+        participantes: [
+          {
+            nombre: "Gohan",
+            correo: "gohan@gmail.com",
+            imagen: "gohan.jpg",
+          },
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es la tarea",
+            fecha: "01/06/2021",
+          },
           // ...Otro anuncio
-],
-asignaciones: [
+        ],
+        asignaciones: [
           {
             titulo: "Prueba 1",
             descripcion: "Entregar un programa bien",
             fecha: "31/05/2021",
           },
-            // ...Otra asignación
-],
-},
-{ //*clase 3
-nombreClase: "Diseño Web",
-codigo: "DIS33XZ",
-seccion: "1600",
-imgFondo: "detalle3.png",
-imgFondoDetalle: "detalle1.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar Web",
-participantes: [
-                {
-                nombre: "Puar",
-                correo: "puar@gmail.com",
-                imagen: "puar.jpg",
-                },
-                // ...Otro participante
-],
-anuncios: [
-        {
-          mensaje: "Hoy es el Proyecto",
-          fecha: "27/06/2021",
-        },
+          // ...Otra asignación
+        ],
+      },
+      { //*clase 3
+        nombreClase: "Diseño Web",
+        codigo: "DIS33XZ",
+        seccion: "1600",
+        imgFondo: "detalle3.png",
+        imgFondoDetalle: "detalle1.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar Web",
+        participantes: [
+          {
+            nombre: "Puar",
+            correo: "puar@gmail.com",
+            imagen: "puar.jpg",
+          },
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es el Proyecto",
+            fecha: "27/06/2021",
+          },
           // ...Otro anuncio
-],
-asignaciones: [
+        ],
+        asignaciones: [
           {
             titulo: "Proyecto 1",
             descripcion: "Entregar un programa web",
             fecha: "15/06/2021",
           },
-            // ...Otra asignación
-],
-},
+          // ...Otra asignación
+        ],
+      },
 
-//...Otra clase
-],
-},
-{
-//*instructor 2
-instructor: 
-{
-nombre: "Vegeta",
-correo: "vegeta@gmail.com",
-imagen: "vegeta.jpg",
-},
-clases: [
-{ //*clase 1
-nombreClase: "Programación I",
-codigo: "CSD33XZ",
-seccion: "1300",
-imgFondo: "detalle3.png",
-imgFondoDetalle: "detalle1.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar",
-participantes: [
-              {
-              nombre: "Patricio",
-              correo: "patricio@gmail.com",
-              imagen: "patricio.jpg",
-              },
-              // ...Otro participante
-],
-anuncios: [
-      {
-        mensaje: "Hoy es el examen",
-        fecha: "27/05/2020",
-      },
-        // ...Otro anuncio
-],
-asignaciones: [
-        {
-          titulo: "Tarea 1",
-          descripcion: "Entregar un programa",
-          fecha: "28/02/2020",
-        },
+      //...Otra clase
+    ],
+  },
+  {
+    //*instructor 2
+    instructor:
+    {
+      nombre: "Vegeta",
+      correo: "vegeta@gmail.com",
+      imagen: "vegeta.jpg",
+    },
+    clases: [
+      { //*clase 1
+        nombreClase: "Programación I",
+        codigo: "CSD33XZ",
+        seccion: "1300",
+        imgFondo: "detalle3.png",
+        imgFondoDetalle: "detalle1.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar",
+        participantes: [
+          {
+            nombre: "Patricio",
+            correo: "patricio@gmail.com",
+            imagen: "patricio.jpg",
+          },
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es el examen",
+            fecha: "27/05/2020",
+          },
+          // ...Otro anuncio
+        ],
+        asignaciones: [
+          {
+            titulo: "Tarea 1",
+            descripcion: "Entregar un programa",
+            fecha: "28/02/2020",
+          },
           // ...Otra asignación
-],
-},
-//*Clase 2
-{
-nombreClase: "POO 2",
-codigo: "POO33XZ",
-seccion: "1400",
-imgFondo: "detalle2.png",
-imgFondoDetalle: "detalle2.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar bien",
-participantes: [
-              {
-              nombre: "Pan",
-              correo: "pan@gmail.com",
-              imagen: "pan.png",
-              },
-              // ...Otro participante
-],
-anuncios: [
-      {
-        mensaje: "Hoy es la tarea",
-        fecha: "01/06/2021",
+        ],
       },
-        // ...Otro anuncio
-],
-asignaciones: [
-        {
-          titulo: "Prueba 1",
-          descripcion: "Entregar un programa bien",
-          fecha: "31/05/2021",
-        },
-          // ...Otra asignación
-],
-},
-{ //*clase 3
-nombreClase: "Diseño Web 2",
-codigo: "DIS33XZ",
-seccion: "1600",
-imgFondo: "detalle3.png",
-imgFondoDetalle: "detalle1.png",
-aula: "B-12",
-descripcion: "Clase donde se enseña a programar Web",
-participantes: [
-              {
-              nombre: "Uub",
-              correo: "uub@gmail.com",
-              imagen: "uub.jpg",
-              },
-              // ...Otro participante
-],
-anuncios: [
+      //*Clase 2
       {
-        mensaje: "Hoy es el Proyecto",
-        fecha: "27/06/2021",
-      },
-        // ...Otro anuncio
-],
-asignaciones: [
-        {
-          titulo: "Proyecto 1",
-          descripcion: "Entregar un programa web",
-          fecha: "15/06/2021",
-        },
+        nombreClase: "POO 2",
+        codigo: "POO33XZ",
+        seccion: "1400",
+        imgFondo: "detalle2.png",
+        imgFondoDetalle: "detalle2.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar bien",
+        participantes: [
+          {
+            nombre: "Pan",
+            correo: "pan@gmail.com",
+            imagen: "pan.png",
+          },
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es la tarea",
+            fecha: "01/06/2021",
+          },
+          // ...Otro anuncio
+        ],
+        asignaciones: [
+          {
+            titulo: "Prueba 1",
+            descripcion: "Entregar un programa bien",
+            fecha: "31/05/2021",
+          },
           // ...Otra asignación
-],
-},
+        ],
+      },
+      { //*clase 3
+        nombreClase: "Diseño Web 2",
+        codigo: "DIS33XZ",
+        seccion: "1600",
+        imgFondo: "detalle3.png",
+        imgFondoDetalle: "detalle1.png",
+        aula: "B-12",
+        descripcion: "Clase donde se enseña a programar Web",
+        participantes: [
+          {
+            nombre: "Uub",
+            correo: "uub@gmail.com",
+            imagen: "uub.jpg",
+          },
+          // ...Otro participante
+        ],
+        anuncios: [
+          {
+            mensaje: "Hoy es el Proyecto",
+            fecha: "27/06/2021",
+          },
+          // ...Otro anuncio
+        ],
+        asignaciones: [
+          {
+            titulo: "Proyecto 1",
+            descripcion: "Entregar un programa web",
+            fecha: "15/06/2021",
+          },
+          // ...Otra asignación
+        ],
+      },
 
-//...Otra clase
-],
-}
+      //...Otra clase
+    ],
+  }
 ];
 
 localStorage = window.localStorage;
@@ -232,46 +232,50 @@ if (localStorage.getItem('classroom') == null) {
 
 
 var navbar = `
+
     <nav class="navbar navbar-expand-ms navbar-light bg-white ">
-        <div class="container-fluid ">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+        <div class="container-fluid">
+
+          <div class="row" style="width: 102%;">
+                <div class="Columna1 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
-            </button>
-
+                   </button>
+      
             <div class="logo">
                 <a id="logo" href="https://www.google.hn/"> <img src="img/googlelogo_clr_74x24px.svg"> Classroom </a>
             </div>
+                </div>
 
-
-
-            <div class="panelderecho">
-                <div class="panelderechodetalle panelderechoplus ">
+                <div class="Columna2 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6  col-6">
+                   <div class="panelderechodetalle">
                     <a class="plus" href="#"> <i class="fas fa-plus"></i> </a>
+                   </div>
+
+                   <div class="panelderechodetalle mx-5">
+                     <a class="plus" href="#"><i class="fab fa-buromobelexperte"></i> </a>
+                   </div>
+
+                   <div class="panelderechodetalle ">
+                       <a class="plus" href="#" type="button" onclick="mostrarInstructor()" data-bs-toggle="modal"
+                       data-bs-target="#instructorModal"> <i id="perfilNav" class="fas fa-user"></i> </a> <!-- Halar de localStorage -->
+                   </div>
+
+
                 </div>
-                <div class=" panelderechodetalle panelderechomenu">
-                    <a class="plus" href="#"><i class="fab fa-buromobelexperte"></i> </a>
-                </div>
-
-                <div class=" panelderechodetalle panelderechousuario">
-                    <a class="plus" href="#" type="button" onclick="mostrarInstructor()" data-bs-toggle="modal"
-                        data-bs-target="#instructorModal"> <i id="perfilNav" class="fas fa-user"></i> </a> <!-- Halar de localStorage -->
-                </div>
-            </div>
-
-                
-
-            
 
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+      
                     <li class="nav-item">
                         <a class="nav-link" href="#">Clases</a>
                     </li>
-
+      
                     <li class="nav-item">
                         <a class="nav-link" href="#">Calendario</a>
                     </li>
@@ -282,29 +286,44 @@ var navbar = `
                         <a class="nav-link" href="#">Ajustes</a>
                     </li>
                 </ul>
-
+      
             </div>
+           </div>
+
         </div>
 
-
-    </nav> 
+    </nav>
     
     
     `;
 
 //foto fondo y flecha
 var navbaruno = `
-    <div class="imgfondo">
-        <div class="foter mb-1">
-          <p> ¿No ves tus clases previas? </p>
-        </div>
-
-        <div class="foter ">
-           <a href="#"> Prueba con otra cuenta</a>
-        </div>
+<div class="container-fluid">
 
 
+    <div class="row" >
+
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" >
+               <div class="imgfondo">
+                   <div class="foter mb-1">
+                     <p> ¿No ves tus clases previas? </p>
+                    </div>
+        
+                    <div class="foter ">
+                   <a href="#"> Prueba con otra cuenta</a>
+                    </div>
+        
+        
+              </div>
+      </div>
+
+                
     </div>
+
+</div>
+
+   
 
 
 <div class="mensajeFlecha">
@@ -322,17 +341,7 @@ var navbaruno = `
 // usado para el detalle de las clases
 ////var navbardos = ;
 
-
-
-
-
-
-
-
 document.getElementById('navb').innerHTML = navbar + navbaruno;
-
-
-
 
 
 
@@ -402,9 +411,10 @@ function mostrarClase(id) {
 
           for (let k = 0; k < classroom[id].clases[j].participantes.length; k++) {
             console.log(classroom[id].clases[j].participantes[k].nombre);
+
             document.getElementById('detalleid').innerHTML +=
-            ` 
-        <div class="col-3 mt-5" > <!-- Halar de localStorage -->
+              ` 
+        <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12   mt-5  " > <!-- Halar de localStorage -->
        
                 <a href="#" onclick="detalleClase(${id},${j},${t},${p},${k})" class="" style="text-decoration: none; color: rgba(0, 0, 0, 0.698);">
                 <div class="card" style="width: 18rem;">
@@ -421,11 +431,11 @@ function mostrarClase(id) {
           </div>
           `;
 
-          console.log('Pinta')
+            console.log('Pinta')
 
-       
-      }
-    }
+
+          }
+        }
 
       }
 
@@ -433,7 +443,7 @@ function mostrarClase(id) {
 
     document.getElementById('perfilNav').innerHTML =
       `
-     (<img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefoto"  alt="..." >)
+     (<img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotoUno"  alt="..." >)
 
 `;
 
@@ -445,90 +455,77 @@ function mostrarClase(id) {
 
 
 
-function detalleClase(id, j, t, p,k) {
+function detalleClase(id, j, t, p, k) {
   document.getElementById('detalleiddos').innerHTML = '';
   document.getElementById('navb').innerHTML = '';
+
   document.getElementById('navb').innerHTML = `
+
+
   <nav class="navbar navbar-expand-ms navbar-light bg-white ">
-      <div class="container-fluid ">
-      
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon "></span>
-          </button>
-
-          <div class="logo" >
-              <a id="logo" href="https://www.google.hn/"></a>
-          </div>
-
-          <div class="panelCentral">
-            <div class="panelCentralIndividual mx-5 " >
-              <a type="button" onclick="detalleClase(${id},${j},${t},${p},${k})" id="logo" href="#">Clases</a>
-            </div>
-            <div class="panelCentralIndividual mx-5" >
-                <a type="button" onclick="asignacionesDetalle(${id},${j},${t},${p},${k})" id="logo" href="#"> Asignaciones</a>
-              
-            </div>
-            <div class="panelCentralIndividual mx-5" >
-                <a type="button" onclick="mostrarParticipantes(${id},${j},${t},${p},${k})" id="logo" href="#">Participantes</a>
-                  
-            </div>
   
-           </div>
+    <div class="container-fluid">
+
+      <div class="row" style="width: 102%;">
+
+        <div class="Columna1 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" >
+      
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="logo" >
+                    <a id="logo" href="#"></a>
+                </div>
 
 
+                
+        </div>
 
 
-          <div class="panelderecho">
-              <div class="panelderechodetalle panelderechoplus ">
-                  <a class="plus" href="#"> <i class="fas fa-cog"></i> </a>
-              </div>
-              <div class=" panelderechodetalle panelderechomenu">
-                  <a class="plus" href="#"><i class="fab fa-buromobelexperte"></i> </a>
-              </div>
+        <div class=" Columna3 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+          
+                  <div class="efecto" >
+                    <a type="button" onclick="detalleClase(${id},${j},${t},${p},${k})" id="logo" href="#">Clases</a>
+                  </div>
+                  <div class="efecto mx-5" >
+                      <a type="button" onclick="asignacionesDetalle(${id},${j},${t},${p},${k})" id="logo" href="#"> Asignaciones</a>
+                  </div>
+                  <div class="efecto" >
+                      <a type="button" onclick="mostrarParticipantes(${id},${j},${t},${p},${k})" id="logo" href="#">Participantes</a>
+                        
+                  </div>
+        
+        </div>
 
-              <div class=" panelderechodetalle panelderechousuario">
-                  <a class="plus" href="#" type="button" onclick="mostrarInstructor()" data-bs-toggle="modal"
-                      data-bs-target="#instructorModal"> <i id="perfilNav" class="fas fa-user"></i> </a> <!-- Halar de localStorage -->
-              </div>
-          </div>
 
+        <div class="Columna2 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+       
+        
+                <div class="panelderecho">
+                    <div class="panelderechodetalle panelderechoplus ">
+                        <a class="plus" href="#"> <i class="fas fa-cog"></i> </a>
+                    </div>
+                    <div class=" panelderechodetalle panelderechomenu">
+                        <a class="plus" href="#"><i class="fab fa-buromobelexperte"></i> </a>
+                    </div>
 
+                    <div class=" panelderechodetalle panelderechousuario">
+                        <a class="plus" href="#" type="button" onclick="mostrarInstructor()" data-bs-toggle="modal"
+                            data-bs-target="#instructorModal"> <i id="perfilNav" class="fas fa-user"></i> </a> <!-- Halar de localStorage -->
+                    </div>
+                </div>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+         </div>
 
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Clases</a>
-                  </li>
+       </div>
 
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Calendario</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Clases Archivadas</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Ajustes</a>
-                  </li>
-              </ul>
-
-          </div>
-      </div>
+    </div>
   </nav> `;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -547,7 +544,7 @@ function detalleClase(id, j, t, p,k) {
 
   document.getElementById('perfilNav').innerHTML =
     `
-     <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefoto"  alt="..." >
+     <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotoUno"  alt="..." >
 
 `;
 
@@ -557,7 +554,7 @@ function detalleClase(id, j, t, p,k) {
   document.getElementById('detalleid').innerHTML =
     //Banner
     `
-<div class="col-12 mt-3" id="centradoCard"> <!-- Halar de localStorage -->
+     <div class="mt-3" id="centradoCard"> <!-- Halar de localStorage -->
        
                 
                 <div class="card" id="centradoCardDetalle">
@@ -651,7 +648,7 @@ ${document.getElementById('anuncioVivo').value}<br>
  
 `;
 
-document.getElementById('anuncioVivo').value = '';
+  document.getElementById('anuncioVivo').value = '';
 
 
 }
@@ -659,7 +656,7 @@ document.getElementById('anuncioVivo').value = '';
 
 
 
-function asignacionesDetalle(id, j, t, p,k) {
+function asignacionesDetalle(id, j, t, p, k) {
 
   document.getElementById('anuncioPublicado').innerHTML = '';
   document.getElementById('detalleid').innerHTML = '';
@@ -743,7 +740,7 @@ function mostrarAsignacion() {
 }
 
 
-function mostrarParticipantes(id, j, t, p,k) {
+function mostrarParticipantes(id, j, t, p, k) {
   document.getElementById('anuncioPublicado').innerHTML = '';
   document.getElementById('detalleid').innerHTML = '';
   document.getElementById('detalleiddos').innerHTML += ` 
@@ -821,7 +818,7 @@ function mostrarParticipantes(id, j, t, p,k) {
 
 
 function agregarInstructor() {
-  
+
   nombre = document.getElementById('nuevoInstructor').value,
     correo = document.getElementById('nuevoCorreo').value,
     imagen = document.getElementById('listaInstructores').value
@@ -878,7 +875,7 @@ function agregarInstructor() {
   document.getElementById('nuevoInstructor').value = '';
   document.getElementById('nuevoCorreo').value = '';
   document.getElementById('listaInstructores').value = '';
-  
+
 
 }
 
