@@ -1,5 +1,226 @@
 
-var classroom = [];
+var classroom = [
+   {//*instructor 1
+    instructor: 
+    {
+      nombre: "Goku",
+      correo: "goku@gmail.com",
+      imagen: "goku.jpg",
+    },
+clases: [
+{ //*clase 1
+nombreClase: "Programación II",
+codigo: "CSD33XZ",
+seccion: "1300",
+imgFondo: "detalle3.png",
+imgFondoDetalle: "detalle1.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar",
+participantes: [
+                {
+                nombre: "Krillin",
+                correo: "krillin@gmail.com",
+                imagen: "krilin.jpg",
+                },
+               
+                // ...Otro participante
+],
+anuncios: [
+        {
+          mensaje: "Hoy es el examen",
+          fecha: "27/01/2020",
+        },
+          // ...Otro anuncio
+],
+asignaciones: [
+          {
+            titulo: "Tarea 1",
+            descripcion: "Entregar un programa",
+            fecha: "28/02/2020",
+          },
+            // ...Otra asignación
+],
+},
+//*Clase 2
+{
+nombreClase: "POO",
+codigo: "POO33XZ",
+seccion: "1400",
+imgFondo: "detalle2.png",
+imgFondoDetalle: "detalle2.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar bien",
+participantes: [
+                {
+                nombre: "Gohan",
+                correo: "gohan@gmail.com",
+                imagen: "gohan.jpg",
+                },
+                // ...Otro participante
+],
+anuncios: [
+        {
+          mensaje: "Hoy es la tarea",
+          fecha: "01/06/2021",
+        },
+          // ...Otro anuncio
+],
+asignaciones: [
+          {
+            titulo: "Prueba 1",
+            descripcion: "Entregar un programa bien",
+            fecha: "31/05/2021",
+          },
+            // ...Otra asignación
+],
+},
+{ //*clase 3
+nombreClase: "Diseño Web",
+codigo: "DIS33XZ",
+seccion: "1600",
+imgFondo: "detalle3.png",
+imgFondoDetalle: "detalle1.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar Web",
+participantes: [
+                {
+                nombre: "Puar",
+                correo: "puar@gmail.com",
+                imagen: "puar.jpg",
+                },
+                // ...Otro participante
+],
+anuncios: [
+        {
+          mensaje: "Hoy es el Proyecto",
+          fecha: "27/06/2021",
+        },
+          // ...Otro anuncio
+],
+asignaciones: [
+          {
+            titulo: "Proyecto 1",
+            descripcion: "Entregar un programa web",
+            fecha: "15/06/2021",
+          },
+            // ...Otra asignación
+],
+},
+
+//...Otra clase
+],
+},
+{
+//*instructor 2
+instructor: 
+{
+nombre: "Vegeta",
+correo: "vegeta@gmail.com",
+imagen: "vegeta.jpg",
+},
+clases: [
+{ //*clase 1
+nombreClase: "Programación I",
+codigo: "CSD33XZ",
+seccion: "1300",
+imgFondo: "detalle3.png",
+imgFondoDetalle: "detalle1.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar",
+participantes: [
+              {
+              nombre: "Patricio",
+              correo: "patricio@gmail.com",
+              imagen: "patricio.jpg",
+              },
+              // ...Otro participante
+],
+anuncios: [
+      {
+        mensaje: "Hoy es el examen",
+        fecha: "27/05/2020",
+      },
+        // ...Otro anuncio
+],
+asignaciones: [
+        {
+          titulo: "Tarea 1",
+          descripcion: "Entregar un programa",
+          fecha: "28/02/2020",
+        },
+          // ...Otra asignación
+],
+},
+//*Clase 2
+{
+nombreClase: "POO 2",
+codigo: "POO33XZ",
+seccion: "1400",
+imgFondo: "detalle2.png",
+imgFondoDetalle: "detalle2.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar bien",
+participantes: [
+              {
+              nombre: "Pan",
+              correo: "pan@gmail.com",
+              imagen: "pan.png",
+              },
+              // ...Otro participante
+],
+anuncios: [
+      {
+        mensaje: "Hoy es la tarea",
+        fecha: "01/06/2021",
+      },
+        // ...Otro anuncio
+],
+asignaciones: [
+        {
+          titulo: "Prueba 1",
+          descripcion: "Entregar un programa bien",
+          fecha: "31/05/2021",
+        },
+          // ...Otra asignación
+],
+},
+{ //*clase 3
+nombreClase: "Diseño Web 2",
+codigo: "DIS33XZ",
+seccion: "1600",
+imgFondo: "detalle3.png",
+imgFondoDetalle: "detalle1.png",
+aula: "B-12",
+descripcion: "Clase donde se enseña a programar Web",
+participantes: [
+              {
+              nombre: "Uub",
+              correo: "uub@gmail.com",
+              imagen: "uub.jpg",
+              },
+              // ...Otro participante
+],
+anuncios: [
+      {
+        mensaje: "Hoy es el Proyecto",
+        fecha: "27/06/2021",
+      },
+        // ...Otro anuncio
+],
+asignaciones: [
+        {
+          titulo: "Proyecto 1",
+          descripcion: "Entregar un programa web",
+          fecha: "15/06/2021",
+        },
+          // ...Otra asignación
+],
+},
+
+//...Otra clase
+],
+}
+];
 var localStorage = window.localStorage;
 if (localStorage.getItem('classroom') == 'null') {
   localStorage.setItem('classroom', JSON.stringify(classroom));
