@@ -198,9 +198,7 @@
 
  }
  .profilefotochat{
-    position: relative;
-    margin-left: 0.5%;
-    margin-top: 0.5%;
+    position: absolute;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -281,7 +279,7 @@
 .cajaAnuncio{
     border: none;
     position: absolute;
-    margin-left: 3.0%;
+    margin-left: 7.5%;
     margin-top: 0.5%;
 }
 
@@ -349,11 +347,11 @@
 }
 
 #nuevaAsignacion{
-    position: absolute;
+    position:relative;
     width: 45rem;
     height: 50px;
     border-bottom: 1px solid #F5F5F5;
-    top: 25%;
+    top: 90px;
     
 }
 
@@ -361,17 +359,14 @@
 #nuevaAsignacionUno{
     border-bottom: 1px solid #2C7EEA;
     position: relative;
-    left: 100px;
     width: 45rem;
     height: 50px;
     top: 25%;
-    right: 30px;
-    
 }
 
 #nuevaAsignacionDos{
     border-bottom: 1px solid #2C7EEA;
-    position: absolute;
+    position: relative;
     width: 45rem;
     height: 50px;
     top: 50%;
@@ -387,8 +382,14 @@
     align-items: center;
 }
 
-#datoTituloAsignacion{
+#contenidoAsignacionNueva{
+    position: relative;
+    top:75%;
+    margin-right: 600px;
 
+}
+
+#datoTituloAsignacion{
     position: absolute;
     margin-left: 0%;
     top: 30%;
@@ -396,9 +397,8 @@
 
 
 #datoTituloFecha{
-   
     position: absolute;
-   float: right;
+  float: right;
     margin-left: 85%;
     top: 30%;
    
@@ -407,9 +407,11 @@
 
 
 #participanteInstructor{
-    position: absolute;
-    top: 250px;
-    left: 390px;
+    background-color: red;
+    position: relative;
+    width: 10%;
+    top: 20px;
+    left: 330px;
 }
 
 .Columna1{
@@ -452,3 +454,10 @@
 }*/
 
 
+.datoIntructor{
+    background-color: red;
+    position: absolute;
+    width: 45rem;
+    height: 50px;
+    top: 25%;
+}

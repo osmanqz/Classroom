@@ -673,16 +673,16 @@ function asignacionesDetalle(id, j, t, p, k) {
   <div> 
   <button type="button" id="btnAsignacion" data-bs-toggle="modal" data-bs-target="#agregarAsignacionModal" onclick=""> <i class="fas fa-plus mx-1"></i></i>Nueva Asignacion</button>
 
-  <div class="container-fluid" id="aqui">
+  <div class="container-fluid">
       <div class="row" >
-          <div class="col-12" id="contenidoAsignacion" >
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" id="contenidoAsignacion" >
            <div id="nuevaAsignacion">
                
                <div id="datoTituloAsignacion">
                <i class="far fa-file-alt mx-4"></i> 
                ${classroom[id].clases[j].asignaciones[t].titulo}
-
                </div>
+
                <div id="datoTituloFecha">
                ${classroom[id].clases[j].asignaciones[t].fecha}
                </div>
@@ -718,6 +718,7 @@ function mostrarAsignacion() {
   <div class="container-fluid">
       <div class="row" >
           <div class="col-12" id="contenidoAsignacion" >
+
            <div id="nuevaAsignacion" class="mt-5">
                
                <div id="datoTituloAsignacion">
@@ -752,71 +753,46 @@ function mostrarParticipantes(id, j, t, p, k) {
   document.getElementById('detalleid').innerHTML = '';
   document.getElementById('detalleiddos').innerHTML += ` 
 
-  <div>
+
   <div class="container-fluid">
 
       <div class="row" >
 
-          <div class="col-12" id="contenidoAsignacion" >
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" id="contenidoAsignacion" >
 
            <div id="nuevaAsignacionUno" >
-
                <div id="datoTituloAsignacion">
                <h2 style="color: #2B7DE9 ">Profesores</h2>
                </div>
               
                <div id="datoTituloFecha">
-              <i id="perfilNav" class="fas fa-user"></i>
+              <i id="" class="fas fa-user"></i>
                </div>
-
-            </div>
-
-            <div id="participanteInstructor">
-              <div id="chatmsjEncabezado" class=""  >
-                <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
-                  <div class=" mx-5">
-                      ${classroom[id].instructor.nombre}
-                   </div>
-              </div>
-           
-            </div>
-
-            <div id="nuevaAsignacionDos" class="lineaBaja">
-
-            <div id="datoTituloAsignacion">
-            <h2 style="color: #2B7DE9 ">Estudiantes</h2>
-            </div>
-           
-            <div id="datoTituloFecha">
-           <i id="perfilNav" class="fas fa-user"></i>
-            </div>
-
-           
-            <div id="">
-            <div id="" class="mt-5"  >
-              <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
-                <div class="mx-5">
-                    ${classroom[id].clases[j].participantes[k].nombre}
-                 </div>
-            </div>
-
-         </div>
-            
-
-
           </div>
 
+        </div>
 
 
-     </div>
-
+       
 
       </div>
 
-  </div>
+      
+      <div class="row" >
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" id="contenidoAsignacion" >
+      <div id="contenidoAsignacionNueva" class="">
+      <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
+       <div class="mx-5">
+         ${classroom[id].instructor.nombre}
+       </div>
+       </div>
 
-</div>
 
+       </div>
+       </div>
+            
+
+    </div>
 
   `;
 
