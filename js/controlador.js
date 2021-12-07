@@ -250,7 +250,7 @@ var navbar = `
             </div>
                 </div>
 
-                <div class="Columna2 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6  col-6">
+                <div class="Columna2 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12  col-12">
                    <div class="panelderechodetalle">
                     <a class="plus" href="#"> <i class="fas fa-plus"></i> </a>
                    </div>
@@ -443,7 +443,7 @@ function mostrarClase(id) {
 
     document.getElementById('perfilNav').innerHTML =
       `
-     (<img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotoUno"  alt="..." >)
+     <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotoUno"  alt="..." >
 
 `;
 
@@ -468,7 +468,7 @@ function detalleClase(id, j, t, p, k) {
 
       <div class="row" style="width: 102%;">
 
-        <div class="Columna1 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" >
+        <div class="Columna1 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" >
       
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -486,7 +486,7 @@ function detalleClase(id, j, t, p, k) {
         </div>
 
 
-        <div class=" Columna3 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class=" Columna3 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
           
                   <div class="efecto" >
                     <a type="button" onclick="detalleClase(${id},${j},${t},${p},${k})" id="logo" href="#">Clases</a>
@@ -531,6 +531,7 @@ function detalleClase(id, j, t, p, k) {
 
 
   document.getElementById('logo').innerHTML =
+
     `<div  id="logo">
   ${classroom[id].clases[j].nombreClase}<br>
   <div  style="font-size: 1rem;">
@@ -552,11 +553,9 @@ function detalleClase(id, j, t, p, k) {
   //mostrar mas de detalle 
 
   document.getElementById('detalleid').innerHTML =
-    //Banner
     `
      <div class="mt-3" id="centradoCard"> <!-- Halar de localStorage -->
        
-                
                 <div class="card" id="centradoCardDetalle">
                   
                     <div class="imgCard">
@@ -572,41 +571,49 @@ function detalleClase(id, j, t, p, k) {
                 </div>
           </div>
 
+
+
           <!-- Mensajes -->
           <div class="container-fluid">
+
            <div class="row">
-              <div class="col-6 my-3">
-              <div id="porEvaluar">
-              <p><strong>Por evaluar</strong> </p>
-              ${classroom[id].clases[j].asignaciones[t].fecha}<br>
-              ${classroom[id].clases[j].asignaciones[t].titulo}
+
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12  col-12 my-3">
+                 <div id="porEvaluar">
+                   <p><strong>Por evaluar</strong> </p>
+                  ${classroom[id].clases[j].asignaciones[t].fecha}<br>
+                  ${classroom[id].clases[j].asignaciones[t].titulo}
                   
-               </div>
+                 </div>
+
               </div>
 
-              <div class="col-6 my-3">
+
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12  col-12 my-3">
+
                   <div class="chatmsj">
-                  <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
-                  <input id="anuncioVivo" class="cajaAnuncio" type="text" placeholder="Anunciar algo a tu clase"> 
+                      <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
+                      <input id="anuncioVivo" class="cajaAnuncio" type="text" placeholder="Anunciar algo a tu clase"> 
                   
-                  <a type"button" href="#" onclick="publicacionAnuncio(${id},${j},${p})"><i class="fas fa-retweet"></i></a>
+                      <a type"button" href="#" onclick="publicacionAnuncio(${id},${j},${p})"><i class="fas fa-retweet"></i></a>
                   
                   </div>
 
                   <div id="anuncioPublicado">
 
-                  <div id="chatmsjEncabezado" class="chatmsj mt-5"  >
-                    <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
-                    <div class="cajaAnuncio">
-                    ${classroom[id].instructor.nombre}<br>
-                    ${classroom[id].clases[j].anuncios[p].mensaje}
-                   </div>
-                   </div>
+                      <div id="chatmsjEncabezado" class="chatmsj mt-5"  >
+                       <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
+                       <div class="cajaAnuncio">
+                           ${classroom[id].instructor.nombre}<br>
+                            ${classroom[id].clases[j].anuncios[p].mensaje}
+                        </div>
+                       </div>
+
                    <div class="chatmsj" style="border-radius: 0px 0px 6px 6px;">
-                   <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
-                  <input  class="cajaAnuncio"  type="text" placeholder="Agrega un comentario"> 
+                       <img src=" /img/profile-pics/${classroom[id].instructor.imagen}" class="card-img-top profilefotochat"  alt="..." >
+                        <input  class="cajaAnuncio"  type="text" placeholder="Agrega un comentario"> 
                   
-                 <a href="#" onclick=""><i class="fas fa-paper-plane"></i></a>
+                      <a href="#" onclick=""><i class="fas fa-paper-plane"></i></a>
                   
                     </div>
 
